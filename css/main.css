@@ -1,41 +1,25 @@
 body{
-	font-family: 'Yanone Kaffeesatz', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: 'Yanone Kaffeesatz', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 15px;
 }
 
 .icon-github{
-	font-size: 200px;
-	height: 200px;
-	width: 200px;
+	font-size: 350px;
 }
 
 .leader{
 	text-align: center;
 }
 .leader a{
-	color: #008293;
+	color: #efefef;
 	display: inline-block;
-	  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  -ms-animation-duration: 0.5s;
-  -o-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .leader a:hover{
 	color: #d2d2d2;
-	 -webkit-transform-origin: top center;
-  -moz-transform-origin: top center;
-  -o-transform-origin: top center;
-  transform-origin: top center;
-  -webkit-animation-name: swing;
-  -moz-animation-name: swing;
-  -o-animation-name: swing;
-  animation-name: swing;
 }
 .social{
 	font-size: 30px;
@@ -54,5 +38,32 @@ footer{
 
 
 
+/* Large desktop */
+@media (min-width: 1200px) {
+.icon-github{
+  font-size: 350px;
+}
 
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.icon-github{
+  font-size: 300px;
+}
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.icon-github{
+  font-size: 200px;
+}
+ }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .icon-github{
+    font-size: 160px;
+  }
+ }
 
