@@ -1,0 +1,58 @@
+body{
+	font-family: 'Yanone Kaffeesatz', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 15px;
+}
+
+.icon-github{
+	font-size: 200px;
+	height: 200px;
+	width: 200px;
+}
+
+.leader{
+	text-align: center;
+}
+.leader a{
+	color: #008293;
+	display: inline-block;
+	  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+.leader a:hover{
+	color: #d2d2d2;
+	 -webkit-transform-origin: top center;
+  -moz-transform-origin: top center;
+  -o-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  -moz-animation-name: swing;
+  -o-animation-name: swing;
+  animation-name: swing;
+}
+.social{
+	font-size: 30px;
+}
+
+footer{
+	text-align: center;
+	border-top: solid 1px #d2d2d2;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+

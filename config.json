@@ -1,0 +1,89 @@
+{
+  "name": "icons",
+  "glyphs": [
+    {
+      "search": [
+        "github",
+        "social",
+        "logo"
+      ],
+      "code": 62208,
+      "uid": "d94334f23acba022bfd68e49d76b31bb",
+      "css": "github",
+      "orig_css": "github",
+      "orig_code": 62208,
+      "src": "entypo",
+      "from": 62208
+    },
+    {
+      "search": [
+        "github",
+        "social",
+        "logo"
+      ],
+      "code": 62209,
+      "uid": "91daf8fde1042a363514ca7e42d89570",
+      "css": "github-circled",
+      "orig_css": "github-circled",
+      "orig_code": 62209,
+      "src": "entypo",
+      "from": 62209
+    },
+    {
+      "search": [
+        "twitter",
+        "social",
+        "logo"
+      ],
+      "code": 62217,
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 62217,
+      "src": "entypo",
+      "from": 62217
+    },
+    {
+      "search": [
+        "twitter",
+        "social",
+        "logo"
+      ],
+      "code": 62218,
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter-circled",
+      "orig_css": "twitter-circled",
+      "orig_code": 62218,
+      "src": "entypo",
+      "from": 62218
+    },
+    {
+      "search": [
+        "facebook",
+        "social",
+        "logo"
+      ],
+      "code": 62221,
+      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
+      "css": "facebook-circled",
+      "orig_css": "facebook-circled",
+      "orig_code": 62221,
+      "src": "entypo",
+      "from": 62221
+    },
+    {
+      "search": [
+        "facebook",
+        "social",
+        "logo"
+      ],
+      "code": 62222,
+      "uid": "47bd87a650e95b97f947d275ed968efe",
+      "css": "facebook-squared",
+      "orig_css": "facebook-squared",
+      "orig_code": 62222,
+      "src": "entypo",
+      "from": 62222
+    }
+  ]
+}
