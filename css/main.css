@@ -2,27 +2,47 @@ body{
 	font-family: 'Yanone Kaffeesatz', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 15px;
 }
-
+h1, h2,h3,h4{
+  font-weight: normal;
+}
 .icon-github{
 	font-size: 350px;
 }
-
+.navbar-inverse .navbar-inner{
+  
+}
 .leader{
 	text-align: center;
 }
 .leader a{
-	color: #efefef;
-	display: inline-block;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
   transition: all 0.5s;
 }
-.leader a:hover{
-	color: #d2d2d2;
+
+a.github{
+  color: #018758; /* #3B89AD;*/
+}
+a.github:hover{
+  color: #3BA27E; /*#005881;*/
+}
+
+a.twitter{
+  color: #00ACED;
+}
+a.twitter:hover{
+  color: #5BB8DD;
+}
+a.facebook{
+  color: #3B5998;
+}
+a.facebook:hover{
+  color: #7086B4;
 }
 .social{
-	font-size: 30px;
+	font-size: 50px;
 }
 
 footer{
