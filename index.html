@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+  <![endif]-->
+  <!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+    <![endif]-->
+    <!--[if IE 8]>
+    <html class="no-js lt-ie9">
+      <![endif]-->
+      <!--[if gt IE 8]>
+      <!-->
+      <html class="no-js">
+        <!--<![endif]-->
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>.:: websiddu ::. my github home page</title>
@@ -12,7 +21,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
-                padding-top: 60px;
+                padding-top: 40px;
                 padding-bottom: 40px;
             }
         </style>
@@ -21,100 +30,131 @@
         <link rel="stylesheet" href="css/icons-embedded.css">
         <link rel="stylesheet" href="css/main.css">
 
-
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <p class="chromeframe">
+          You are using an <strong>outdated</strong>
+          browser. Please
+          <a href="http://browsehappy.com/">upgrade your browser</a>
+          or
+          <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a>
+          to improve your experience.
+        </p>
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#">websiddu</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-header">CSS &amp; Js</li>
-                                    <li><a href="#">3Cups game</a></li>
-                                    <li><a href="#">Guess game</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Jquery</li>
-                                    <li><a href="#">jquery.backTotop</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div>
+        <header id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+          <nav class="navbar-inner">
+            <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="#">websiddu</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li class="active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                     <li>
+                    <a href="#projects">Projects</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse --> </div>
+          </nav>
+        </header>
+
+        <div class="container" id="home">
+          <div class="row">
+            <section  class="span12 leader">
+              <h3>Welcome to my github account!!</h3>
+              <p>
+                <a class="github" href="http://github.com/websiddu" target="_blank"> <i class="icon-github"></i>
+                </a>
+              </p>
+              <section  id="contact" class="social">
+                <a class="twitter" href="http://twitter.com/websiddu" target="_blank"><i class="icon-twitter-circled"></i></a>
+                <a class="facebook" href="http://fb.com/siddharthagudipati" target="_blank"><i class="icon-facebook-circled"></i></a>
+                <a class="gplus" href="https://plus.google.com/u/0/117438226675636741081" target="_blank"><i class="icon-gplus-circled"></i></a>
+                <a class="instagram" href="http://instagram.com/websiddu" target="_blank"><i class="icon-instagram"></i></a>
+                <a class="linkdin" href="http://www.linkedin.com/pub/siddhartha-gudipati/39/512/224" target="_blank"><i class="icon-linkedin-circled"></i></a>
+              </section>
+            </section>
+          </div>
+
+          <!-- Example row of columns -->
+          <div class="row" id="projects">
+            <div class="span4">
+
+              <h2>3Cups game</h2>
+              <a target="_blank" href="http://websiddu.github.com/3cups/" class="threecups block">3 cups</a>
+
+              <p>
+                A simple jquery 3cups game, which is built with 3 boxes and kick buttoskyi. A fun application.
+              </p>
+              <p>
+                <a target="_blank" href="http://websiddu.github.com/3cups/" >View details &raquo;</a>
+              </p>
+              <hr class="dotted-divider" />
+
+              <h2>Manzeera</h2>
+              <a target="_blank" href="https://github.com/websiddu/Manzeera" class="manzeera block">3 cups</a>
+
+              <p>
+                A sublime text2 theme, which wont hurts your eyes. Manzeera Color Scheme for Sublime text 2, Textmate and Notepad++.
+              </p>
+              <p>
+                <a target="_blank" href="https://github.com/websiddu/Manzeera" >View details &raquo;</a>
+              </p>
+
             </div>
+            <div class="span4">
+              <h2>jquery.backTotop</h2>
+              <a target="_blank"  href="http://websiddu.github.com/backTotop/index.html" class="backtotop block"></a>
+              <p>
+                A jquery plugin, that addes a back to top button to you page and smoothly scrolls up.
+              </p>
+
+              <p>
+                <a target="_blank"  href="https://github.com/websiddu/backTotop">View details &raquo;</a>
+              </p>
+
+            </div>
+            <div class="span4">
+
+              <h2>Guess game</h2>
+              <a target="_blank"  href="https://github.com/websiddu/guessgame" class="guessgame block"></a>
+              <p>
+                A google app engine, application for a simple guessgame. This is built on google app engine and python.
+              </p>
+              <p>
+                <a target="_blank"  href="https://github.com/websiddu/guessgame" href="#">View details &raquo;</a>
+              </p>
+
+            </div>
+          </div>
+
+          <footer>
+            Built on
+            <a href="http://www.initializr.com/" target="_blank">html5 boilerplate + twitter bootstrap</a>
+          </footer>
+
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="span12 leader">
-                <h3>Welcome to my github account!!</h3>
-                <p><a class="github" href="http://github.com/websiddu" target="_blank"><i class="icon-github"></i></a></p>
-                <p class="social">
-                    <a class="twitter" href="http://twitter.com/websiddu" target="_blank"> <i class="icon-twitter-circled"></i></a>
-                    <a class="facebook" href="http://fb.com/siddharthagudipati" target="_blank"><i class="icon-facebook-circled"></i></a>
-                </p>
-                </div>
-            </div>
-
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="span4">
-                    <h2>3Cups game</h2>
-<div class="ch-item ch-img-1">              
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front ch-img-1"></div>
-                                    <div class="ch-info-back">
-                                        <h3>3Cups jquery game</h3>
-                                        <p><a href="http://websiddu.github.com/3cups/" > demo </a></p>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span4">
-                    <h2>jquery.backTotop</h2>
-                    <p><img src="img/backtotop.png" class="proj-img"></p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
-                <div class="span4">
-                    <h2>Guess game</h2>
-                    <p><img src="img/guessgame.png" class="proj-img"></p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-            </div>
-
-
-            <footer>
-                Built on <a href="http://www.initializr.com/" target="_blank"> html5 boilerplate + twitter bootstrap</a>
-            </footer>
-
-        </div> <!-- /container -->
+        <!-- /container -->
 
         <script src="js/vendor/jquery-1.9.0.min.js"></script>
-
+        <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-    </body>
-</html>
+</body>
+      </html>
